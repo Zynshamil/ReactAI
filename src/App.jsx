@@ -3,10 +3,11 @@ import OptionSelection from './component/OptionSelection';
 import { arrayItems } from './AIOptions';
 
 function App() {
+  console.log(arrayItems);
   return (
-    <div className="App">
-   <OptionSelection/>
-    </div>
+  <div className="App">
+    <OptionSelection arrayItems={arrayItems} />
+   </div>
   );
 }
 
