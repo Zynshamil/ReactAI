@@ -6,9 +6,14 @@
   padding: 2rem;
   text-align: center;
 }
-
 .heading {
   font-family: Poppins;
+  width: 50%;
+  height: 80px;
+  margin-left: 23%;
+  padding-top: 1%;
+  text-align: center;
+
 }
 
 .grid-main {
@@ -16,6 +21,8 @@
   grid-template-columns: auto auto;
   gap: 15px;
   margin-top: 40px;
+  margin-left: 10%;
+  width: 80%;
 }
 
 .grid-child {
@@ -26,7 +33,7 @@
 }
 
 .grid-child:hover {
-  background-color: rgb(226, 214, 214);
+  background-color: whitesmoke;
   color: #212121;
 }
 
@@ -45,18 +52,29 @@
   font-size: 20px;
   padding: 10px;
   font-family: Poppins;
+  width: 50%;
+  height: 25%;
+  border: 0ch;
+  background: rgb(15, 15, 15);
+  color: white;
 }
 
 .action-btn {
   width: 200px;
   height: 50px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 20px;
   cursor: pointer;
+  border-radius: 15px;
+  border-style: hidden;
+}
+.action-btn:hover{
+ background-color: rgb(24, 22, 22);
+ color: white; 
 }
 
 .result-text {
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 2.5rem;
 }
