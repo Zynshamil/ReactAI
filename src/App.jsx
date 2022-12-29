@@ -6,12 +6,13 @@ import Translation from './component/Translation';
 import { useState } from 'react';
 
 
+
 function App() {
   const configuration = new Configuration({
-  apiKey:  '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',
+  apiKey:  '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',
 });
 
- const openai = new OpenAIApi(configuration);
+  const openai = new OpenAIApi(configuration);
   const [option, setOption] = useState({});
   const [result, setResult] = useState("");
   const [input, setInput] = useState("");

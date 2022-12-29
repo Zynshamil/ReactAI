@@ -10,7 +10,7 @@ function Translation({doStuff,setInput,result}) {
         </textarea><br>
         </br>
         <button className='action-btn' onClick={doStuff} >
-            Ask me anything !
+            DO YOUR STUFF !
         </button>
 
         <h3 className='result-text' >{result.length > 0 ? result :""}</h3>
